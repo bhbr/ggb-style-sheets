@@ -2,6 +2,7 @@
 from lib.ggb_class_extractor import extract_classes_from_ggb_file
 import xml.etree.cElementTree as ET
 from lib.curated_ggb_classes import *
+from lib.styling_logic import GeoGebra
 import os, sys, shutil
 from zipfile import ZipFile
 import argparse
