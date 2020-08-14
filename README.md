@@ -73,7 +73,7 @@ This will create a copy of the GeoGebra file (adding `_layouted` to the file nam
 
 GeoGebra files (`.ggb`) are just zipped XML, much like e. g. `.docx`. The file is unzipped and its XML content read into native Python objects.
 
-A selection of classes for the GeoGebra elements (Axes, BGColor, GGBScript etc.) are provided in `curated_ggb_classes.py`. The list is by no means complete As is and as of now, it will most likely fail on your on GGB files. Alternatively, appropriate classes can be created via a Python code generator that inspects the XML tags (flag `--extract_classes`).
+A selection of classes for the GeoGebra elements (Axes, BGColor, GGBScript etc.) are provided in `curated_ggb_classes.py`. The list is by no means complete. As is and as of now, it will most likely fail on your on GGB files. Alternatively, appropriate classes can be created via a Python code generator that inspects the XML tags (flag `--extract_classes`).
 
 The style sheet (JSON) is read in similarly as a native Python object. Then the style rules are applied, where conditionals and other computations can be expressed in Python (root GeoGebra object in `curated_ggb_classes.py`). The result is saved back to XML and zipped up again.
 
