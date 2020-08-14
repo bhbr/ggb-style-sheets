@@ -1,0 +1,41 @@
+{
+	"window_height": 800,
+	"window_width": 1300,
+
+	"color_palette": {
+		"orange" : [255, 127, 0],
+		"black" : [0, 0, 0],
+		"white" : [255, 255, 255],
+		"red" : [255, 0, 0],
+		"green" : [0, 255, 0],
+		"blue" : [0, 0, 255]
+	},
+
+	"default_caption_style": {
+		"tex": true,
+		"bold": true
+	},
+
+	"background_color": "black",
+
+	"axes": {
+		"color": "white",
+		"show": true,
+		"show_ticks": true,
+		"show_numbers": true,
+		"positive_axis_only": false
+	},
+
+	"x_axis": {
+		"color": "white",
+		"show": true,
+		"show_numbers": true
+	},
+
+	"font_size": 24,
+
+	"line_style": {
+		"width": 5,
+		"hidden_style": "dotted"
+	}
+}
